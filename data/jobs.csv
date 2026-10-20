@@ -1,0 +1,12 @@
+
+job_title,company,location,skills,salary
+Python Developer,Tech Solutions,Hyderabad,"Python, SQL, Git",600000
+Data Analyst,DataWorks,Bangalore,"Python, SQL, Excel, Power BI",550000
+Machine Learning Engineer,AI Labs,Hyderabad,"Python, Machine Learning, SQL",900000
+Web Developer,WebTech,Chennai,"HTML, CSS, JavaScript, Python",450000
+Data Scientist,DataWorks,Bangalore,"Python, SQL, Machine Learning, Statistics",1000000
+Python Developer,CodeCraft,Vijayawada,"Python, Django, SQL, Git",500000
+Data Analyst,Insight Tech,Hyderabad,"Excel, SQL, Power BI, Python",650000
+AI Engineer,AI Labs,Bangalore,"Python, Deep Learning, Machine Learning",1100000
+Frontend Developer,WebTech,Hyderabad,"HTML, CSS, JavaScript, React",500000
+Database Developer,DataWorks,Chennai,"SQL, Python, Database Design",600000

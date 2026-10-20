@@ -1,0 +1,119 @@
+
+/* Neon Cyan Dark Theme */
+
+.stApp {
+    background: linear-gradient(135deg, #050816, #0a1024, #071b2b);
+    color: #e6fcff;
+}
+
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #07111f, #0b1630);
+    border-right: 1px solid #00f5ff;
+}
+
+h1, h2, h3 {
+    color: #00f5ff !important;
+    text-shadow: 0 0 12px rgba(0, 245, 255, 0.45);
+}
+
+p, label, span {
+    color: #d9faff;
+}
+
+div[data-testid="stMetric"] {
+    background: rgba(0, 245, 255, 0.06);
+    border: 1px solid #00d9ff;
+    border-radius: 14px;
+    padding: 18px;
+    box-shadow: 0 0 12px rgba(0, 245, 255, 0.12);
+}
+
+.stButton > button {
+    background: linear-gradient(90deg, #00bcd4, #00f5ff);
+    color: #03111a;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.stButton > button:hover {
+    box-shadow: 0 0 20px #00f5ff;
+    border: 1px solid #ffffff;
+    color: #03111a;
+}
+
+[data-testid="stDataFrame"] {
+    border: 1px solid #00d9ff;
+    border-radius: 10px;
+}
+
+input, textarea {
+    background-color: #0b1628 !important;
+    color: #00f5ff !important;
+    border: 1px solid #00d9ff !important;
+}
+
+hr {
+    border-color: #00d9ff;
+}
+
+/* Neon Cyan Glass Cards */
+
+div[data-testid="stMetric"],
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    background: rgba(0, 245, 255, 0.045);
+    border: 1px solid rgba(0, 245, 255, 0.45);
+    border-radius: 16px;
+    box-shadow:
+        0 0 8px rgba(0, 245, 255, 0.12),
+        inset 0 0 12px rgba(0, 245, 255, 0.025);
+    transition: all 0.3s ease;
+}
+
+div[data-testid="stMetric"]:hover {
+    border-color: #00f5ff;
+    box-shadow:
+        0 0 18px rgba(0, 245, 255, 0.4),
+        inset 0 0 12px rgba(0, 245, 255, 0.08);
+    transform: translateY(-3px);
+}
+
+/* Cyan metric values */
+[data-testid="stMetricValue"] {
+    color: #00f5ff !important;
+    text-shadow: 0 0 10px rgba(0, 245, 255, 0.35);
+}
+
+/* Sidebar radio hover */
+[data-testid="stSidebar"] [role="radiogroup"] label:hover {
+    background: rgba(0, 245, 255, 0.1);
+    border-radius: 8px;
+}
+
+/* Neon Cyan Chart Containers */
+
+div[data-testid="stVegaLiteChart"],
+div[data-testid="stArrowVegaLiteChart"],
+div[data-testid="stPyplot"] {
+    background: rgba(0, 245, 255, 0.035);
+    border: 1px solid rgba(0, 245, 255, 0.35);
+    border-radius: 16px;
+    padding: 12px;
+    box-shadow: 0 0 12px rgba(0, 245, 255, 0.08);
+}
+
+/* Chart section headings */
+h2, h3 {
+    color: #00f5ff !important;
+    border-bottom: 1px solid rgba(0, 245, 255, 0.22);
+    padding-bottom: 8px;
+}
+
+/* Dataframe container */
+div[data-testid="stDataFrame"] {
+    border: 1px solid #00d9ff;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 245, 255, 0.12);
+    overflow: hidden;
+}
